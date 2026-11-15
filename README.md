@@ -22,6 +22,22 @@ download and your numbers will match mine exactly. A walkthrough of how I would
 approach it in the room is
 [on the site](https://whatstheimpact.com/ai-assisted-coding-interview/).
 
+## Tutorials
+
+### Booking-level CUPED
+
+A toy Airbnb experiment randomized by market. Standard CUPED adjusts each market
+by its spring cancel rate, but the test runs in July, when families show up in
+some markets far more than others. Predicting each booking's cancel probability
+from what was booked, then averaging those predictions up to the market, removes
+more of the variance. Based on Camelo, Kearns, Cersosimo & Drerup (2026),
+"Variance Reduction Below the Randomization Grain," on the Instacart tech blog.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wolverinenyc/WhatsTheImpact/blob/main/tutorials/airbnb_cancellations_cuped.ipynb)
+
+The data is simulated. The notebook downloads it from `tutorials/data/`, and the
+script that generates it is in the same folder.
+
 ## About
 
 I'm Jonathan Hershaff, a senior data scientist and PhD economist working in
